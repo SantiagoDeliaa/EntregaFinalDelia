@@ -1,0 +1,18 @@
+.header {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(127, 101, 214, 0.604); 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navLinks button {
+    margin-right: 15px; 
+}
+
