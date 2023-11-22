@@ -12,15 +12,7 @@
     align-items: center;
 }
 
-/*.Categories {
-    Agrega estilos específicos para la barra de categorías si es necesario 
-}*/
-
 .NavLinkOption {
     margin-right: 15px;
-    /* Agrega otros estilos que desees para los enlaces normales */
 }
 
-/*.ActiveOption {
-    Agrega estilos que desees para los enlaces activos (cuando estén seleccionados) 
-}*/
