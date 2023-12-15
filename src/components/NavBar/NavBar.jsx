@@ -12,12 +12,13 @@ export default function NavBar() {
                     <img src={logo} alt="logo Helenius"/>
                 </Link>
                 <div className={styles.Categories}>
-                    <NavLink to='/category/home' className={styles.NavLinkOption}>HOME</NavLink>
-                    <NavLink to='/category/shirts' className={styles.NavLinkOption}>T-SHIRTS</NavLink>
-                    <NavLink to='/category/pants' className={styles.NavLinkOption}>PANTS</NavLink>
+                    <NavLink to='/' className={styles.NavLinkOption}>HOME</NavLink>
+                    <NavLink to='/category/Shirts' className={styles.NavLinkOption}>SHIRTS</NavLink>
+                    <NavLink to='/category/Pants' className={styles.NavLinkOption}>PANTS</NavLink>
+                    <NavLink to='/category/Shoes' className={styles.NavLinkOption}>SHOES</NavLink>
                 </div>
                 <div className="cart-container">
-                    <CartWidget></CartWidget>
+                    <CartWidget />
                 </div>
             </nav>
         </header>
